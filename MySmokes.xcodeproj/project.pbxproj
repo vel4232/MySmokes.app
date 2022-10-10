@@ -3,13 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07BBA80A8826A062626809B1 /* Pods_MySmokes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA522131BB1E7D5B0638C29 /* Pods_MySmokes.framework */; };
+		198543333F0D174FCBA6B259 /* Pods_MySmokes_MySmokesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB90253E29FD9FB11DDD6C5 /* Pods_MySmokes_MySmokesUITests.framework */; };
+		8D960C7E59EB068456487603 /* Pods_MySmokesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A14A65F786EFDA9724E1865 /* Pods_MySmokesTests.framework */; };
+		B32C72BE26AAC7FE006D6463 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32C72BD26AAC7FE006D6463 /* ViewController3.swift */; };
+		B32C72CE26B6EEB5006D6463 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32C72CD26B6EEB5006D6463 /* ViewController4.swift */; };
+		B32C72D326B8287E006D6463 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32C72D226B8287E006D6463 /* TableViewCell2.swift */; };
+		B32C72DE26B84587006D6463 /* StandartLoader2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32C72DD26B84587006D6463 /* StandartLoader2.swift */; };
+		B32C72E626BADF9E006D6463 /* ViewController42.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32C72E526BADF9E006D6463 /* ViewController42.swift */; };
+		B33D4E7026D4FCAB00CFB7C8 /* ViewController43.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D4E6F26D4FCAB00CFB7C8 /* ViewController43.swift */; };
+		B33D4E7526E38F1300CFB7C8 /* ViewController45.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D4E7426E38F1300CFB7C8 /* ViewController45.swift */; };
+		B33D4E7A26E38F1D00CFB7C8 /* ViewController44.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D4E7926E38F1D00CFB7C8 /* ViewController44.swift */; };
+		B33D4E9026E4E61F00CFB7C8 /* Профиль________________.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D4E8F26E4E61F00CFB7C8 /* Профиль________________.swift */; };
+		B33D4EA626E62EFB00CFB7C8 /* ViewController41.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D4EA526E62EFB00CFB7C8 /* ViewController41.swift */; };
+		B33D4EAE26E783FB00CFB7C8 /* TableView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D4EAD26E783FB00CFB7C8 /* TableView1.swift */; };
+		B33D4EBE26F9F59600CFB7C8 /* CollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D4EBD26F9F59400CFB7C8 /* CollectionViewCell1.swift */; };
+		B33D4ED526FF603B00CFB7C8 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D4ED426FF603B00CFB7C8 /* CoreData.swift */; };
+		B33D4EDD26FF606600CFB7C8 /* Загрузка и CoreData____.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D4EDC26FF606600CFB7C8 /* Загрузка и CoreData____.swift */; };
+		B33D4EE52714647500CFB7C8 /* Корзина_________________.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D4EE42714647300CFB7C8 /* Корзина_________________.swift */; };
+		B33D4EED271464A500CFB7C8 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D4EEC271464A500CFB7C8 /* ViewController5.swift */; };
+		B33D4EF22716F38600CFB7C8 /* TableViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D4EF12716F38600CFB7C8 /* TableViewCell3.swift */; };
+		B33D4EFD271D70C500CFB7C8 /* Главная__________________.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D4EFC271D70C500CFB7C8 /* Главная__________________.swift */; };
+		B33D4F1D271D949A00CFB7C8 /* CoreData2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D4F1C271D949900CFB7C8 /* CoreData2.swift */; };
+		B35ACA2A26A6010B00F3E61C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35ACA2926A6010B00F3E61C /* Models.swift */; };
+		B35ACA3226A6043F00F3E61C /* StandartLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35ACA3126A6043F00F3E61C /* StandartLoader.swift */; };
+		B39730E4272F4B67004793F2 /* ViewController51.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39730E3272F4B67004793F2 /* ViewController51.swift */; };
+		B39730EC27356E33004793F2 /* ViewController31.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39730EB27356E32004793F2 /* ViewController31.swift */; };
+		B397310C2750D232004793F2 /* CoreData3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B397310B2750D231004793F2 /* CoreData3.swift */; };
+		B39731532754ED71004793F2 /* ViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39731522754ED6F004793F2 /* ViewController0.swift */; };
+		B397315B2754ED95004793F2 /* Окно загрузки__________.swift in Sources */ = {isa = PBXBuildFile; fileRef = B397315A2754ED95004793F2 /* Окно загрузки__________.swift */; };
+		B397318C2758ECF7004793F2 /* ViewController32.swift in Sources */ = {isa = PBXBuildFile; fileRef = B397318B2758ECF7004793F2 /* ViewController32.swift */; };
+		B3C63E5326A6B8DB0015244B /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C63E5226A6B8DB0015244B /* TableViewCell1.swift */; };
+		B3C63E6326A828F00015244B /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C63E6226A828F00015244B /* ViewController2.swift */; };
+		B3CF05B1275E313D00C45618 /* ViewController52.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CF05B0275E313C00C45618 /* ViewController52.swift */; };
+		B3CF05B9275E496400C45618 /* ViewController53.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CF05B8275E496300C45618 /* ViewController53.swift */; };
+		B3CF05C1275E4F9D00C45618 /* ViewController54.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CF05C0275E4F9D00C45618 /* ViewController54.swift */; };
+		B3CF05C9275F922900C45618 /* ViewController55.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CF05C8275F922800C45618 /* ViewController55.swift */; };
+		B3CF05DC2760D05800C45618 /* Версия__________________.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CF05DB2760D05700C45618 /* Версия__________________.swift */; };
+		B3CF05E72760F2F700C45618 /* CoreData0.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CF05E62760F2F600C45618 /* CoreData0.swift */; };
+		B3CF05EF2760F9BB00C45618 /* Описание программы__.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CF05EE2760F9BB00C45618 /* Описание программы__.swift */; };
 		B3DF91A9269B87A800C81EAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF91A8269B87A800C81EAF /* AppDelegate.swift */; };
 		B3DF91AB269B87A800C81EAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF91AA269B87A800C81EAF /* SceneDelegate.swift */; };
-		B3DF91AD269B87A800C81EAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF91AC269B87A800C81EAF /* ViewController.swift */; };
+		B3DF91AD269B87A800C81EAF /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF91AC269B87A800C81EAF /* ViewController1.swift */; };
 		B3DF91B0269B87A800C81EAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DF91AE269B87A800C81EAF /* Main.storyboard */; };
 		B3DF91B3269B87A800C81EAF /* MySmokes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3DF91B1269B87A800C81EAF /* MySmokes.xcdatamodeld */; };
 		B3DF91B5269B87AB00C81EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3DF91B4269B87AB00C81EAF /* Assets.xcassets */; };
@@ -36,10 +75,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A14A65F786EFDA9724E1865 /* Pods_MySmokesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySmokesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A4C4D75CD02852BCEBFC32E /* Pods-MySmokesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySmokesTests.debug.xcconfig"; path = "Target Support Files/Pods-MySmokesTests/Pods-MySmokesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EA522131BB1E7D5B0638C29 /* Pods_MySmokes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySmokes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE451875758EC0881581ED8 /* Pods-MySmokes-MySmokesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySmokes-MySmokesUITests.release.xcconfig"; path = "Target Support Files/Pods-MySmokes-MySmokesUITests/Pods-MySmokes-MySmokesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E155E54C8629A09036DAC6A /* Pods-MySmokes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySmokes.debug.xcconfig"; path = "Target Support Files/Pods-MySmokes/Pods-MySmokes.debug.xcconfig"; sourceTree = "<group>"; };
+		7CA0EB13EC82CE8B4BF2E0A8 /* Pods-MySmokes-MySmokesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySmokes-MySmokesUITests.debug.xcconfig"; path = "Target Support Files/Pods-MySmokes-MySmokesUITests/Pods-MySmokes-MySmokesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5B7338987B397311C311243 /* Pods-MySmokesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySmokesTests.release.xcconfig"; path = "Target Support Files/Pods-MySmokesTests/Pods-MySmokesTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEB90253E29FD9FB11DDD6C5 /* Pods_MySmokes_MySmokesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySmokes_MySmokesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32C72BD26AAC7FE006D6463 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		B32C72CD26B6EEB5006D6463 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		B32C72D226B8287E006D6463 /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		B32C72DD26B84587006D6463 /* StandartLoader2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandartLoader2.swift; sourceTree = "<group>"; };
+		B32C72E526BADF9E006D6463 /* ViewController42.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController42.swift; sourceTree = "<group>"; };
+		B33D4E6F26D4FCAB00CFB7C8 /* ViewController43.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController43.swift; sourceTree = "<group>"; };
+		B33D4E7426E38F1300CFB7C8 /* ViewController45.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController45.swift; sourceTree = "<group>"; };
+		B33D4E7926E38F1D00CFB7C8 /* ViewController44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController44.swift; sourceTree = "<group>"; };
+		B33D4E8F26E4E61F00CFB7C8 /* Профиль________________.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Профиль________________.swift"; sourceTree = "<group>"; };
+		B33D4EA526E62EFB00CFB7C8 /* ViewController41.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController41.swift; sourceTree = "<group>"; };
+		B33D4EAD26E783FB00CFB7C8 /* TableView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView1.swift; sourceTree = "<group>"; };
+		B33D4EBD26F9F59400CFB7C8 /* CollectionViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell1.swift; sourceTree = "<group>"; };
+		B33D4ED426FF603B00CFB7C8 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		B33D4EDC26FF606600CFB7C8 /* Загрузка и CoreData____.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Загрузка и CoreData____.swift"; sourceTree = "<group>"; };
+		B33D4EE42714647300CFB7C8 /* Корзина_________________.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Корзина_________________.swift"; sourceTree = "<group>"; };
+		B33D4EEC271464A500CFB7C8 /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		B33D4EF12716F38600CFB7C8 /* TableViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell3.swift; sourceTree = "<group>"; };
+		B33D4EFC271D70C500CFB7C8 /* Главная__________________.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Главная__________________.swift"; sourceTree = "<group>"; };
+		B33D4F1C271D949900CFB7C8 /* CoreData2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData2.swift; sourceTree = "<group>"; };
+		B35ACA2926A6010B00F3E61C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B35ACA3126A6043F00F3E61C /* StandartLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandartLoader.swift; sourceTree = "<group>"; };
+		B39730E3272F4B67004793F2 /* ViewController51.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController51.swift; sourceTree = "<group>"; };
+		B39730EB27356E32004793F2 /* ViewController31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController31.swift; sourceTree = "<group>"; };
+		B397310B2750D231004793F2 /* CoreData3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData3.swift; sourceTree = "<group>"; };
+		B39731522754ED6F004793F2 /* ViewController0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController0.swift; sourceTree = "<group>"; };
+		B397315A2754ED95004793F2 /* Окно загрузки__________.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Окно загрузки__________.swift"; sourceTree = "<group>"; };
+		B397318B2758ECF7004793F2 /* ViewController32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController32.swift; sourceTree = "<group>"; };
+		B3C63E5226A6B8DB0015244B /* TableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		B3C63E6226A828F00015244B /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		B3CF05B0275E313C00C45618 /* ViewController52.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController52.swift; sourceTree = "<group>"; };
+		B3CF05B8275E496300C45618 /* ViewController53.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController53.swift; sourceTree = "<group>"; };
+		B3CF05C0275E4F9D00C45618 /* ViewController54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController54.swift; sourceTree = "<group>"; };
+		B3CF05C8275F922800C45618 /* ViewController55.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController55.swift; sourceTree = "<group>"; };
+		B3CF05DB2760D05700C45618 /* Версия__________________.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Версия__________________.swift"; sourceTree = "<group>"; };
+		B3CF05E62760F2F600C45618 /* CoreData0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData0.swift; sourceTree = "<group>"; };
+		B3CF05EE2760F9BB00C45618 /* Описание программы__.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Описание программы__.swift"; sourceTree = "<group>"; };
 		B3DF91A5269B87A700C81EAF /* MySmokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySmokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DF91A8269B87A800C81EAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3DF91AA269B87A800C81EAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B3DF91AC269B87A800C81EAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3DF91AC269B87A800C81EAF /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		B3DF91AF269B87A800C81EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3DF91B2269B87A800C81EAF /* MySmokes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MySmokes.xcdatamodel; sourceTree = "<group>"; };
 		B3DF91B4269B87AB00C81EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +134,7 @@
 		B3DF91C9269B87AC00C81EAF /* MySmokesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySmokesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DF91CD269B87AC00C81EAF /* MySmokesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySmokesUITests.swift; sourceTree = "<group>"; };
 		B3DF91CF269B87AC00C81EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4D84576E11320166C305D1A /* Pods-MySmokes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySmokes.release.xcconfig"; path = "Target Support Files/Pods-MySmokes/Pods-MySmokes.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BBA80A8826A062626809B1 /* Pods_MySmokes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D960C7E59EB068456487603 /* Pods_MySmokesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +158,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				198543333F0D174FCBA6B259 /* Pods_MySmokes_MySmokesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030203EB7D7BCD2F124F66DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EA522131BB1E7D5B0638C29 /* Pods_MySmokes.framework */,
+				AEB90253E29FD9FB11DDD6C5 /* Pods_MySmokes_MySmokesUITests.framework */,
+				1A14A65F786EFDA9724E1865 /* Pods_MySmokesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACA19AE21FDAC3B95555AE68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E155E54C8629A09036DAC6A /* Pods-MySmokes.debug.xcconfig */,
+				B4D84576E11320166C305D1A /* Pods-MySmokes.release.xcconfig */,
+				7CA0EB13EC82CE8B4BF2E0A8 /* Pods-MySmokes-MySmokesUITests.debug.xcconfig */,
+				6BE451875758EC0881581ED8 /* Pods-MySmokes-MySmokesUITests.release.xcconfig */,
+				1A4C4D75CD02852BCEBFC32E /* Pods-MySmokesTests.debug.xcconfig */,
+				A5B7338987B397311C311243 /* Pods-MySmokesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B3DF919C269B87A700C81EAF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +195,8 @@
 				B3DF91C1269B87AC00C81EAF /* MySmokesTests */,
 				B3DF91CC269B87AC00C81EAF /* MySmokesUITests */,
 				B3DF91A6269B87A700C81EAF /* Products */,
+				ACA19AE21FDAC3B95555AE68 /* Pods */,
+				030203EB7D7BCD2F124F66DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +215,44 @@
 			children = (
 				B3DF91A8269B87A800C81EAF /* AppDelegate.swift */,
 				B3DF91AA269B87A800C81EAF /* SceneDelegate.swift */,
-				B3DF91AC269B87A800C81EAF /* ViewController.swift */,
 				B3DF91AE269B87A800C81EAF /* Main.storyboard */,
+				B3CF05DB2760D05700C45618 /* Версия__________________.swift */,
+				B3CF05EE2760F9BB00C45618 /* Описание программы__.swift */,
+				B397315A2754ED95004793F2 /* Окно загрузки__________.swift */,
+				B39731522754ED6F004793F2 /* ViewController0.swift */,
+				B33D4EFC271D70C500CFB7C8 /* Главная__________________.swift */,
+				B3DF91AC269B87A800C81EAF /* ViewController1.swift */,
+				B3C63E6226A828F00015244B /* ViewController2.swift */,
+				B32C72BD26AAC7FE006D6463 /* ViewController3.swift */,
+				B39730EB27356E32004793F2 /* ViewController31.swift */,
+				B397318B2758ECF7004793F2 /* ViewController32.swift */,
+				B3C63E5226A6B8DB0015244B /* TableViewCell1.swift */,
+				B33D4EBD26F9F59400CFB7C8 /* CollectionViewCell1.swift */,
+				B33D4EAD26E783FB00CFB7C8 /* TableView1.swift */,
+				B33D4E8F26E4E61F00CFB7C8 /* Профиль________________.swift */,
+				B32C72CD26B6EEB5006D6463 /* ViewController4.swift */,
+				B33D4EA526E62EFB00CFB7C8 /* ViewController41.swift */,
+				B32C72E526BADF9E006D6463 /* ViewController42.swift */,
+				B33D4E6F26D4FCAB00CFB7C8 /* ViewController43.swift */,
+				B33D4E7926E38F1D00CFB7C8 /* ViewController44.swift */,
+				B33D4E7426E38F1300CFB7C8 /* ViewController45.swift */,
+				B32C72D226B8287E006D6463 /* TableViewCell2.swift */,
+				B33D4EE42714647300CFB7C8 /* Корзина_________________.swift */,
+				B33D4EEC271464A500CFB7C8 /* ViewController5.swift */,
+				B39730E3272F4B67004793F2 /* ViewController51.swift */,
+				B3CF05B0275E313C00C45618 /* ViewController52.swift */,
+				B3CF05B8275E496300C45618 /* ViewController53.swift */,
+				B3CF05C0275E4F9D00C45618 /* ViewController54.swift */,
+				B3CF05C8275F922800C45618 /* ViewController55.swift */,
+				B33D4EF12716F38600CFB7C8 /* TableViewCell3.swift */,
+				B33D4EDC26FF606600CFB7C8 /* Загрузка и CoreData____.swift */,
+				B35ACA3126A6043F00F3E61C /* StandartLoader.swift */,
+				B32C72DD26B84587006D6463 /* StandartLoader2.swift */,
+				B35ACA2926A6010B00F3E61C /* Models.swift */,
+				B3CF05E62760F2F600C45618 /* CoreData0.swift */,
+				B33D4ED426FF603B00CFB7C8 /* CoreData.swift */,
+				B33D4F1C271D949900CFB7C8 /* CoreData2.swift */,
+				B397310B2750D231004793F2 /* CoreData3.swift */,
 				B3DF91B4269B87AB00C81EAF /* Assets.xcassets */,
 				B3DF91B6269B87AB00C81EAF /* LaunchScreen.storyboard */,
 				B3DF91B9269B87AB00C81EAF /* Info.plist */,
@@ -138,9 +286,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3DF91D2269B87AC00C81EAF /* Build configuration list for PBXNativeTarget "MySmokes" */;
 			buildPhases = (
+				115C0BC92C3C580F13678BB2 /* [CP] Check Pods Manifest.lock */,
 				B3DF91A1269B87A700C81EAF /* Sources */,
 				B3DF91A2269B87A700C81EAF /* Frameworks */,
 				B3DF91A3269B87A700C81EAF /* Resources */,
+				01A40881E1613A0853BC6A1E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3DF91D5269B87AC00C81EAF /* Build configuration list for PBXNativeTarget "MySmokesTests" */;
 			buildPhases = (
+				2D543BB5318D2FFA4E3A8430 /* [CP] Check Pods Manifest.lock */,
 				B3DF91BA269B87AC00C81EAF /* Sources */,
 				B3DF91BB269B87AC00C81EAF /* Frameworks */,
 				B3DF91BC269B87AC00C81EAF /* Resources */,
@@ -173,9 +324,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3DF91D8269B87AC00C81EAF /* Build configuration list for PBXNativeTarget "MySmokesUITests" */;
 			buildPhases = (
+				F9DA495D7A09E5889BF06EA5 /* [CP] Check Pods Manifest.lock */,
 				B3DF91C5269B87AC00C81EAF /* Sources */,
 				B3DF91C6269B87AC00C81EAF /* Frameworks */,
 				B3DF91C7269B87AC00C81EAF /* Resources */,
+				3BCFA8A640334B18378177C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +409,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01A40881E1613A0853BC6A1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MySmokes/Pods-MySmokes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MySmokes/Pods-MySmokes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MySmokes/Pods-MySmokes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		115C0BC92C3C580F13678BB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MySmokes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D543BB5318D2FFA4E3A8430 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MySmokesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BCFA8A640334B18378177C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MySmokes-MySmokesUITests/Pods-MySmokes-MySmokesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MySmokes-MySmokesUITests/Pods-MySmokes-MySmokesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MySmokes-MySmokesUITests/Pods-MySmokes-MySmokesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9DA495D7A09E5889BF06EA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MySmokes-MySmokesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B3DF91A1269B87A700C81EAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3DF91AD269B87A800C81EAF /* ViewController.swift in Sources */,
+				B397310C2750D232004793F2 /* CoreData3.swift in Sources */,
+				B33D4EFD271D70C500CFB7C8 /* Главная__________________.swift in Sources */,
+				B32C72BE26AAC7FE006D6463 /* ViewController3.swift in Sources */,
+				B33D4EF22716F38600CFB7C8 /* TableViewCell3.swift in Sources */,
+				B33D4EA626E62EFB00CFB7C8 /* ViewController41.swift in Sources */,
+				B3C63E5326A6B8DB0015244B /* TableViewCell1.swift in Sources */,
+				B33D4EDD26FF606600CFB7C8 /* Загрузка и CoreData____.swift in Sources */,
+				B397315B2754ED95004793F2 /* Окно загрузки__________.swift in Sources */,
+				B33D4EE52714647500CFB7C8 /* Корзина_________________.swift in Sources */,
+				B3CF05B1275E313D00C45618 /* ViewController52.swift in Sources */,
+				B397318C2758ECF7004793F2 /* ViewController32.swift in Sources */,
+				B3CF05E72760F2F700C45618 /* CoreData0.swift in Sources */,
+				B32C72E626BADF9E006D6463 /* ViewController42.swift in Sources */,
+				B33D4EBE26F9F59600CFB7C8 /* CollectionViewCell1.swift in Sources */,
+				B3CF05C9275F922900C45618 /* ViewController55.swift in Sources */,
+				B3C63E6326A828F00015244B /* ViewController2.swift in Sources */,
+				B35ACA2A26A6010B00F3E61C /* Models.swift in Sources */,
+				B33D4EED271464A500CFB7C8 /* ViewController5.swift in Sources */,
+				B3DF91AD269B87A800C81EAF /* ViewController1.swift in Sources */,
 				B3DF91B3269B87A800C81EAF /* MySmokes.xcdatamodeld in Sources */,
+				B33D4E7026D4FCAB00CFB7C8 /* ViewController43.swift in Sources */,
+				B39730EC27356E33004793F2 /* ViewController31.swift in Sources */,
+				B33D4E9026E4E61F00CFB7C8 /* Профиль________________.swift in Sources */,
+				B32C72CE26B6EEB5006D6463 /* ViewController4.swift in Sources */,
+				B35ACA3226A6043F00F3E61C /* StandartLoader.swift in Sources */,
+				B3CF05DC2760D05800C45618 /* Версия__________________.swift in Sources */,
+				B33D4E7A26E38F1D00CFB7C8 /* ViewController44.swift in Sources */,
+				B33D4F1D271D949A00CFB7C8 /* CoreData2.swift in Sources */,
+				B3CF05C1275E4F9D00C45618 /* ViewController54.swift in Sources */,
+				B32C72DE26B84587006D6463 /* StandartLoader2.swift in Sources */,
+				B3CF05EF2760F9BB00C45618 /* Описание программы__.swift in Sources */,
+				B3CF05B9275E496400C45618 /* ViewController53.swift in Sources */,
+				B39731532754ED71004793F2 /* ViewController0.swift in Sources */,
+				B33D4EAE26E783FB00CFB7C8 /* TableView1.swift in Sources */,
+				B39730E4272F4B67004793F2 /* ViewController51.swift in Sources */,
+				B33D4E7526E38F1300CFB7C8 /* ViewController45.swift in Sources */,
 				B3DF91A9269B87A800C81EAF /* AppDelegate.swift in Sources */,
+				B32C72D326B8287E006D6463 /* TableViewCell2.swift in Sources */,
 				B3DF91AB269B87A800C81EAF /* SceneDelegate.swift in Sources */,
+				B33D4ED526FF603B00CFB7C8 /* CoreData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +729,7 @@
 		};
 		B3DF91D3269B87AC00C81EAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E155E54C8629A09036DAC6A /* Pods-MySmokes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +748,7 @@
 		};
 		B3DF91D4269B87AC00C81EAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D84576E11320166C305D1A /* Pods-MySmokes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +767,7 @@
 		};
 		B3DF91D6269B87AC00C81EAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4C4D75CD02852BCEBFC32E /* Pods-MySmokesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +789,7 @@
 		};
 		B3DF91D7269B87AC00C81EAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B7338987B397311C311243 /* Pods-MySmokesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +811,7 @@
 		};
 		B3DF91D9269B87AC00C81EAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CA0EB13EC82CE8B4BF2E0A8 /* Pods-MySmokes-MySmokesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +831,7 @@
 		};
 		B3DF91DA269B87AC00C81EAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE451875758EC0881581ED8 /* Pods-MySmokes-MySmokesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

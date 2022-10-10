@@ -1,0 +1,164 @@
+{
+  "client#1": {
+      "first name": "Antoha",
+      "second name": "Titov",
+      "patronymic": "Павлович",
+      "e-mail": "antohakrutoy@fucktelki.com",
+      "phone number": "+7(887)332-77-91",
+      "gender": "Мужской",
+      "loyalty": "250",
+      "birth": "27 июля 1994",
+      "city":"Москва",
+      "sending": "no",
+      "picture": "https://cdnn21.img.ria.ru/images/07e4/0c/1c/1591286882_0:38:3072:1766_1920x0_80_0_0_f011a0e9d4bb3b47e3adb9f571416694.jpg",
+      "total purchases": "9 800",
+      "address": [
+        {
+          "city": "Москва",
+          "street": "наб. Шлюзовая",
+          "streetnumber": "10",
+          "apartmentnumber": "122"
+        },
+        {
+          "city": "Казань",
+          "street": "наб. Любителей табака",
+          "streetnumber": "93",
+          "apartmentnumber": "37"
+        }
+        ],
+      "stories": [
+        {
+          "order": "526749",
+          "date": "03.03.2021",
+          "story": [
+            {
+              "tobacco": "Dark Side",
+              "flavour": "Grape Core",
+              "picture": "https://darksidetabak.ru/wp-content/uploads/2019/01/GRAPE-CORE.jpg",
+              "weight": "30",
+              "price": "200",
+              "quantity": "2"
+            },
+            {
+              "tobacco": "Dark Side",
+              "flavour": "Applecot",
+              "picture": "https://darksidetabak.ru/wp-content/uploads/2019/01/APPLECOT.jpg",
+              "weight": "100",
+              "price": "600",
+              "quantity": "3"
+            },
+            {
+              "tobacco": "Dark Side",
+              "flavour": "Darkside Cola",
+              "picture": "https://darksidetabak.ru/wp-content/uploads/2019/01/COLA.jpg",
+              "weight": "30",
+              "price": "200",
+              "quantity": "3"
+            }
+          ]
+        },
+        {
+          "order": "526750",
+          "date": "03.04.2021",
+          "story": [
+            {
+              "tobacco": "Dark Side",
+              "flavour": "Grape Core",
+              "picture": "https://darksidetabak.ru/wp-content/uploads/2019/01/GRAPE-CORE.jpg",
+              "weight": "30",
+              "price": "200",
+              "quantity": "4"
+            },
+            {
+              "tobacco": "Dark Side",
+              "flavour": "Applecot",
+              "picture": "https://darksidetabak.ru/wp-content/uploads/2019/01/APPLECOT.jpg",
+              "weight": "100",
+              "price": "600",
+              "quantity": "2"
+            },
+            {
+              "tobacco": "Dark Side",
+              "flavour": "Darkside Cola",
+              "picture": "https://darksidetabak.ru/wp-content/uploads/2019/01/COLA.jpg",
+              "weight": "30",
+              "price": "200",
+              "quantity": "2"
+            }
+          ]
+        },
+       {
+          "order": "526753",
+          "date": "01.03.2021",
+          "story": [
+            {
+              "tobacco": "Dark Side",
+              "flavour": "Grape Core",
+              "picture": "https://darksidetabak.ru/wp-content/uploads/2019/01/GRAPE-CORE.jpg",
+              "weight": "30",
+              "price": "200",
+              "quantity": "1"
+            },
+            {
+              "tobacco": "Dark Side",
+              "flavour": "Applecot",
+              "picture": "https://darksidetabak.ru/wp-content/uploads/2019/01/APPLECOT.jpg",
+              "weight": "30",
+              "price": "200",
+              "quantity": "1"
+            },
+            {
+              "tobacco": "Dark Side",
+              "flavour": "Darkside Cola",
+              "picture": "https://darksidetabak.ru/wp-content/uploads/2019/01/COLA.jpg",
+              "weight": "30",
+              "price": "200",
+              "quantity": "1"
+            }
+          ]
+        }
+      ],
+      "liked": [
+        {
+          "kind": "Taбаки",
+          "like": [
+            {
+              "name": "Dark Side",
+              "hashtag": "#darkside",
+              "picture": "https://krypa.ru/wp-content/uploads/2020/02/darkside-logo.jpg"
+            },
+            {
+              "name": "Tangiers",
+              "hashtag": "#tangiers",
+              "picture": "https://hidar.ru/wp-content/uploads/2020/05/tangiers_logo_0-2.png"
+            },
+            {
+              "name": "Spectrum",
+              "hashtag": "#spectrum",
+              "picture": "https://krypa.ru/wp-content/uploads/2020/10/spectrum-600x600.jpg"
+            }
+          ]
+        },
+        {
+          "kind": "Табаки - вкусы",
+          "like": [
+            {
+              "name": "Grape Core",
+              "hashtag": "#виноград",
+              "picture": "https://darksidetabak.ru/wp-content/uploads/2019/01/GRAPE-CORE.jpg"
+            },
+            {
+              "name": "Applecot",
+              "hashtag": "#абрикос#яблоко",
+              "picture": "https://darksidetabak.ru/wp-content/uploads/2019/01/APPLECOT.jpg"
+            },
+            {
+              "name": "Cola",
+              "hashtag": "#кола",
+              "picture": "https://darksidetabak.ru/wp-content/uploads/2019/01/COLA.jpg"
+            }
+          ]
+        }
+      ]
+    }
+}
